@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1933749-789a-4c52-9692-58007d606c57" name="Default Changelist" comment="发布帖子">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/CommunityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/CommunityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/controller/DiscussPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/controller/DiscussPostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/entity/DiscussPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/entity/DiscussPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/event/EventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/event/EventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/util/CommunityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/community/util/CommunityConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/discusspost-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/discusspost-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/activation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mail/activation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/forget.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mail/forget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/discuss-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/discuss-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/followee.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/followee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/follower.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/follower.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/forget.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/forget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/letter-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/letter-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/letter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/letter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/my-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/my-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/my-reply.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/my-reply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/notice-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/notice-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/notice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/setting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/BlockingQueueTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/KafkaTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/LoggerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/MailTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/MapperTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/RedisTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/SensitiveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/community/TransactionTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\java_work\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vD2KuLNtqtEIUHCDhOlcuO30sH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\community\src\main\resources\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_work\community\src\main\resources" />
+      <recent name="D:\work\workspace\community\src\test\java\com\nowcoder\community" />
+      <recent name="D:\work\workspace\community\src\main\java\com\nowcoder\community\config" />
+      <recent name="D:\work\workspace\community\src\main\resources\mapper" />
+      <recent name="D:\work\workspace\community\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
+    <configuration name="ElasticsearchTests.testInsertList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder.community" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testInsertList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchTests.testSearchByRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder.community" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testSearchByRepository" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchTests.testSearchByTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder.community" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testSearchByTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchTests.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder.community" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nowcoder.community.CommunityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CommunityApplication" />
+        <item itemvalue="JUnit.ElasticsearchTests.testSearchByTemplate" />
+        <item itemvalue="JUnit.ElasticsearchTests.testSearchByRepository" />
+        <item itemvalue="JUnit.ElasticsearchTests.testInsertList" />
+        <item itemvalue="JUnit.ElasticsearchTests.testUpdate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1933749-789a-4c52-9692-58007d606c57" name="Default Changelist" comment="" />
+      <created>1559051647920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559051647920</updated>
+      <workItem from="1626082279864" duration="1556000" />
+      <workItem from="1626106177380" duration="222000" />
+      <workItem from="1626108716821" duration="289000" />
+      <workItem from="1626139389778" duration="10965000" />
+      <workItem from="1626234510148" duration="2324000" />
+      <workItem from="1626240181724" duration="8694000" />
+      <workItem from="1626318534203" duration="793000" />
+      <workItem from="1626409559587" duration="60000" />
+      <workItem from="1626522786980" duration="476000" />
+    </task>
+    <task id="LOCAL-00001" summary="首次提交">
+      <created>1559662433377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559662433378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="发送邮件">
+      <created>1559743956620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559743956620</updated>
+    </task>
+    <task id="LOCAL-00003" summary="注册">
+      <created>1560173836633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560173836633</updated>
+    </task>
+    <task id="LOCAL-00004" summary="会话管理">
+      <created>1560179112223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560179112223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="生成验证码">
+      <created>1560345503612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560345503612</updated>
+    </task>
+    <task id="LOCAL-00006" summary="生成验证码">
+      <created>1560345521633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560345521633</updated>
+    </task>
+    <task id="LOCAL-00007" summary="登录">
+      <created>1560434737289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560434737289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="拦截器">
+      <created>1560439630876</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560439630876</updated>
+    </task>
+    <task id="LOCAL-00009" summary="账号设置">
+      <created>1560519442999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560519442999</updated>
+    </task>
+    <task id="LOCAL-00010" summary="检查登录状态">
+      <created>1560778620794</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560778620794</updated>
+    </task>
+    <task id="LOCAL-00011" summary="过滤敏感词">
+      <created>1560866747317</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560866747317</updated>
+    </task>
+    <task id="LOCAL-00012" summary="发布帖子">
+      <created>1560947561297</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560947561297</updated>
+    </task>
+    <task id="LOCAL-00013" summary="帖子详情">
+      <created>1560950131293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560950131293</updated>
+    </task>
+    <task id="LOCAL-00014" summary="事务管理">
+      <created>1561551513759</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561551513759</updated>
+    </task>
+    <task id="LOCAL-00015" summary="显示评论">
+      <created>1561639011122</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1561639011122</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加评论">
+      <created>1561643265459</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561643265459</updated>
+    </task>
+    <task id="LOCAL-00017" summary="私信列表">
+      <created>1561727388208</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561727388208</updated>
+    </task>
+    <task id="LOCAL-00018" summary="发送私信">
+      <created>1561730423831</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561730423831</updated>
+    </task>
+    <task id="LOCAL-00019" summary="统一处理异常">
+      <created>1561848255314</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561848255315</updated>
+    </task>
+    <task id="LOCAL-00020" summary="aop">
+      <created>1561991169769</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561991169770</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Redis示例">
+      <created>1562077343768</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1562077343768</updated>
+    </task>
+    <task id="LOCAL-00022" summary="点赞">
+      <created>1562246251175</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562246251175</updated>
+    </task>
+    <task id="LOCAL-00023" summary="我收到的赞">
+      <created>1562378335657</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562378335657</updated>
+    </task>
+    <task id="LOCAL-00024" summary="关注">
+      <created>1562590034297</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1562590034297</updated>
+    </task>
+    <task id="LOCAL-00025" summary="关注">
+      <created>1562590052716</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1562590052716</updated>
+    </task>
+    <task id="LOCAL-00026" summary="重构">
+      <created>1562591118395</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1562591118395</updated>
+    </task>
+    <task id="LOCAL-00027" summary="重构">
+      <created>1562593952051</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1562593952051</updated>
+    </task>
+    <task id="LOCAL-00028" summary="关注列表">
+      <created>1562681492196</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1562681492197</updated>
+    </task>
+    <task id="LOCAL-00029" summary="重构登录模块">
+      <created>1562761633514</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1562761633514</updated>
+    </task>
+    <task id="LOCAL-00030" summary="阻塞队列">
+      <created>1562765541222</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1562765541222</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Kafka">
+      <created>1562932301382</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1562932301382</updated>
+    </task>
+    <task id="LOCAL-00032" summary="发送通知">
+      <created>1563194862203</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1563194862204</updated>
+    </task>
+    <task id="LOCAL-00033" summary="显示通知">
+      <created>1563453924431</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1563453924431</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="登录" />
+    <MESSAGE value="拦截器" />
+    <MESSAGE value="账号设置" />
+    <MESSAGE value="检查登录状态" />
+    <MESSAGE value="过滤敏感词" />
+    <MESSAGE value="帖子详情" />
+    <MESSAGE value="事务管理" />
+    <MESSAGE value="显示评论" />
+    <MESSAGE value="添加评论" />
+    <MESSAGE value="私信列表" />
+    <MESSAGE value="发送私信" />
+    <MESSAGE value="统一处理异常" />
+    <MESSAGE value="aop" />
+    <MESSAGE value="Redis示例" />
+    <MESSAGE value="点赞" />
+    <MESSAGE value="发布帖子" />
+    <MESSAGE value="我收到的赞" />
+    <MESSAGE value="关注" />
+    <MESSAGE value="重构" />
+    <MESSAGE value="关注列表" />
+    <MESSAGE value="重构登录模块" />
+    <MESSAGE value="阻塞队列" />
+    <MESSAGE value="Kafka" />
+    <MESSAGE value="发送通知" />
+    <MESSAGE value="显示通知" />
+    <option name="LAST_COMMIT_MESSAGE" value="显示通知" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="116" key="FileChooserDialogImpl" timestamp="1626082597977">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="116" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1626082597977" />
+    <state width="1483" height="196" key="GridCell.Tab.0.bottom" timestamp="1626278180341">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1483" height="196" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1626278180341" />
+    <state width="1483" height="196" key="GridCell.Tab.0.center" timestamp="1626278180341">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1483" height="196" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1626278180341" />
+    <state width="1483" height="196" key="GridCell.Tab.0.left" timestamp="1626278180341">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1483" height="196" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1626278180341" />
+    <state width="1483" height="196" key="GridCell.Tab.0.right" timestamp="1626278180341">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1483" height="196" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1626278180341" />
+    <state width="1483" height="137" key="GridCell.Tab.1.bottom" timestamp="1626278180334">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1483" height="137" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1626278180334" />
+    <state width="1483" height="137" key="GridCell.Tab.1.center" timestamp="1626278180334">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1483" height="137" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1626278180334" />
+    <state width="1483" height="137" key="GridCell.Tab.1.left" timestamp="1626278180334">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1483" height="137" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1626278180334" />
+    <state width="1483" height="137" key="GridCell.Tab.1.right" timestamp="1626278180334">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1483" height="137" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1626278180334" />
+    <state x="154" y="0" key="SettingsEditor" timestamp="1626234558428">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="154" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1626234558428" />
+    <state x="0" y="0" key="new project wizard" timestamp="1626409618802">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1626409618802" />
+    <state x="347" y="-1" width="840" height="832" key="search.everywhere.popup" timestamp="1626523064408">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="347" y="-1" width="840" height="832" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1626523064408" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>attributes==null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>
